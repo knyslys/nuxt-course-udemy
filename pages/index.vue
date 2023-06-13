@@ -1,11 +1,9 @@
-<script setup lang="ts">
-const route = useRoute()
-</script>
+<script setup></script>
 
 <template>
+  <NavBar></NavBar>
+  <CarHero />
   <div>
-    <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+    <h1>Home</h1>
   </div>
 </template>
