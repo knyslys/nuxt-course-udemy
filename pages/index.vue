@@ -1,9 +1,7 @@
-<script setup></script>
+<script setup>
+useHead({ title: "Cartrader" });
+</script>
 
 <template>
-  <NavBar></NavBar>
   <CarHero />
-  <div>
-    <h1>Home</h1>
-  </div>
 </template>
